@@ -54,7 +54,7 @@ body, .app {
   height: 50px;
   border-radius: 50%;
   background: #2e7d32;
-  background-image: url('./icons/add.svg');
+  background-image: url('./icons/magnifier.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 28px;
@@ -97,6 +97,7 @@ body, .app {
   background-repeat: no-repeat;
   background-size: 28px;
   font-size: 0;
+  cursor: pointer;
 }
 
 .search-books-results {
@@ -119,6 +120,10 @@ body, .app {
   text-align: left;
 }
 
+.books-grid-search-input {
+  color: royalblue
+}
+
 .book {
   width: 140px;
 }
@@ -131,6 +136,10 @@ body, .app {
 }
 .book-authors {
   color: #999;
+}
+
+.book-empty-list {
+  color: red;
 }
 
 .book-top {
